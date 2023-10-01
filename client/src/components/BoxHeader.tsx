@@ -26,7 +26,7 @@ const BoxHeader = ({icon, title, subtitle,sideText}: Props) => {
                     </Typography>
                 </Box>
             </FlexBetween>
-            <Typography variant="h5" fontWeight="700" color={palette.secondary[300]}>
+            <Typography variant="h5" fontWeight="700" color={palette.grey[300]}>
                 {sideText}
             </Typography>
         </FlexBetween>
