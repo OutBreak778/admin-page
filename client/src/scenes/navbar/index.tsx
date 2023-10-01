@@ -10,7 +10,7 @@ const Navbar = () => {
   const [selected, setSelected] = useState("dashboard");
 
   return (
-    <FlexBetween mb="0.25rem" p="0.5rem 0rem" color={palette.grey[300]}>
+    <FlexBetween mb="0.25rem" p="0.5rem 0rem" color={palette.grey[300]} style={{display: "flex"}}>
       {/* LEFT SIDE */}
       <FlexBetween gap="0.75rem">
         <PixIcon sx={{ fontSize: "28px" }} />
